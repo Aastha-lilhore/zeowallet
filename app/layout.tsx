@@ -28,17 +28,21 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-     <body className="min-h-full flex flex-col bg-black text-white overflow-x-hidden">
+     <body className="relative min-h-full flex flex-col bg-black text-white overflow-x-hidden">
 
-<div className="fixed top-0 left-0 h-96 w-96 rounded-full bg-cyan-500 blur-[180px] opacity-10"></div>
+  <div className="pointer-events-none fixed top-0 left-0 h-96 w-96 rounded-full bg-cyan-500 blur-[180px] opacity-10"></div>
 
-<div className="fixed bottom-0 right-0 h-96 w-96 rounded-full bg-green-500 blur-[180px] opacity-10"></div>
+  <div className="pointer-events-none fixed bottom-0 right-0 h-96 w-96 rounded-full bg-green-500 blur-[180px] opacity-10"></div>
 
-<div className="fixed top-1/2 left-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-500 blur-[220px] opacity-5"></div>
+  <div className="pointer-events-none fixed top-1/2 left-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-500 blur-[220px] opacity-5"></div>
 
   <AuthProvider>
 
-    {children}
+    <div className="relative z-10">
+
+      {children}
+
+    </div>
 
   </AuthProvider>
 

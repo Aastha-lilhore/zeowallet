@@ -3,12 +3,12 @@ import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="relative min-h-screen bg-black text-white">
 
       {/* Background Glow */}
-      <div className="absolute top-20 left-20 h-72 w-72 rounded-full bg-cyan-500 blur-[120px] opacity-20"></div>
+      <div className="pointer-events-none absolute top-20 left-20 h-72 w-72 rounded-full bg-cyan-500 blur-[120px] opacity-20"></div>
 
-      <div className="absolute bottom-20 right-20 h-72 w-72 rounded-full bg-green-500 blur-[120px] opacity-20"></div>
+<div className="pointer-events-none absolute bottom-20 right-20 h-72 w-72 rounded-full bg-green-500 blur-[120px] opacity-20"></div>
 
       <Navbar />
 
