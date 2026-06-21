@@ -1,85 +1,44 @@
-# 💰 ZeoWallet
+# 💸 ZeoWallet
 
-ZeoWallet is a modern personal finance management application built for students to track expenses, manage budgets, set savings goals, and visualize spending habits.
+ZeoWallet is a modern student budget tracker built with Next.js, Firebase and Tailwind CSS.
 
-## 🚀 Features
+## 🚀 Live Demo
 
-### 🔐 Authentication
+https://zeowallet.vercel.app
 
-* User Signup/Login
-* Firebase Authentication
-* Protected Routes
+## Features
 
-### 📊 Dashboard
+* 🔐 Firebase Authentication
+* 📊 Dashboard Overview
+* 💰 Expense Tracking
+* 🎯 Savings Goals Tracker
+* 📅 Budget Planner
+* 📈 Analytics Dashboard
+* 👤 User Profile
+* ⚙️ Settings Page
+* 🌙 Modern Dark UI
 
-* Monthly Budget Overview
-* Total Expenses
-* Savings Summary
-* Recent Transactions
-
-### 💸 Expense Tracker
-
-* Add Expenses
-* Delete Expenses
-* Search Expenses
-* Categorize Expenses
-
-### 🎯 Savings Goals
-
-* Create Savings Goals
-* Track Progress
-* Add Savings
-* Delete Goals
-
-### 📅 Budget Planner
-
-* Monthly Income Planning
-* Budget Calculation
-* Remaining Balance Tracking
-
-### 📈 Analytics
-
-* Expense Analytics Charts
-* Spending Visualization
-
-### 👤 Profile
-
-* User Information Display
-
-### ⚙️ Settings
-
-* Notifications Toggle
-* Account Information
-* Logout
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Next.js 15
+* React
 * TypeScript
 * Tailwind CSS
 * Firebase Authentication
-* Firebase Firestore
+* Firestore Database
 * Recharts
+* Vercel
 
-## 📱 Responsive Design
+## Run Locally
 
-The application is optimized for:
+```bash
+npm install
 
-* Desktop
-* Tablet
-* Mobile Devices
+npm run dev
+```
 
-## 🔮 Future Improvements
+## Author
 
-* Light/Dark Theme Toggle
-* CSV Export
-* AI Budget Suggestions
-* Monthly Reports
-* Budget Notifications
+Aastha Lilhore
 
-## 👩‍💻 Author
-
-Aastha
-
-Built as a student finance management project.
 
