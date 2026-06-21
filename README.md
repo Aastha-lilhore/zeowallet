@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 ZeoWallet
 
-## Getting Started
+ZeoWallet is a modern personal finance management application built for students to track expenses, manage budgets, set savings goals, and visualize spending habits.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔐 Authentication
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* User Signup/Login
+* Firebase Authentication
+* Protected Routes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📊 Dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Monthly Budget Overview
+* Total Expenses
+* Savings Summary
+* Recent Transactions
 
-## Learn More
+### 💸 Expense Tracker
 
-To learn more about Next.js, take a look at the following resources:
+* Add Expenses
+* Delete Expenses
+* Search Expenses
+* Categorize Expenses
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎯 Savings Goals
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Create Savings Goals
+* Track Progress
+* Add Savings
+* Delete Goals
 
-## Deploy on Vercel
+### 📅 Budget Planner
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Monthly Income Planning
+* Budget Calculation
+* Remaining Balance Tracking
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📈 Analytics
+
+* Expense Analytics Charts
+* Spending Visualization
+
+### 👤 Profile
+
+* User Information Display
+
+### ⚙️ Settings
+
+* Notifications Toggle
+* Account Information
+* Logout
+
+## 🛠️ Tech Stack
+
+* Next.js 15
+* TypeScript
+* Tailwind CSS
+* Firebase Authentication
+* Firebase Firestore
+* Recharts
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+* Desktop
+* Tablet
+* Mobile Devices
+
+## 🔮 Future Improvements
+
+* Light/Dark Theme Toggle
+* CSV Export
+* AI Budget Suggestions
+* Monthly Reports
+* Budget Notifications
+
+## 👩‍💻 Author
+
+Aastha
+
+Built as a student finance management project.
+
